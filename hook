@@ -1,0 +1,5 @@
+#!/bin/bash
+a=$(pwd)
+sed  "/here/s@.*@alias here=\'cd $a\'@" ~/.bash_aliases > sedtemp
+mv sedtemp ~/.bash_aliases
+source ~/.bashrc

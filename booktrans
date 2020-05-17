@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -v "$HOME/Downloads"/*"$1"*.pdf "$HOME/Documents/books"
